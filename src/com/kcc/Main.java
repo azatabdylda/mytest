@@ -2,36 +2,40 @@ package com.kcc;
 
 public class Main {
 
-    public Main() {
-        super();
+ String saat;
+ int besh;
+ double d;
+ float k;
+
+    public String getSaat() {
+        return saat;
     }
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
+    public int getBesh() {
+        return besh;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
+    public double getD() {
+        return d;
     }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    public float getK() {
+        return k;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
+    public void setSaat(String saat) {
+        this.saat = saat;
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
+    public void setBesh(int besh) {
+        this.besh = besh;
     }
 
-    public static void main(String[] args) {
+    public void setD(double d) {
+        this.d = d;
+    }
 
+    public void setK(float k) {
+        this.k = k;
     }
 }
