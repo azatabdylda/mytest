@@ -15,10 +15,6 @@ public class playlist {
         return super.equals(obj);
     }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
 
     @Override
     public String toString() {
